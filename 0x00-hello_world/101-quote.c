@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <unistd.h>
 /**
  * main - Return standard error without using printf or puts
  *
