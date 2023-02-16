@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
+ * main - Return standard error without using printf or puts
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
