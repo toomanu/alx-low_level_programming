@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _abs - returns absolute value of integer
- * @n: input character for checking
- * Return: absolute int
+ * add - returns absolute value of integer
+ * @a: first value
+ * @b: second value
+ * Return: additonal of a and b and return c
  */
 
 int add(int a, int b)
