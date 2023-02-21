@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabet in lower case 10 times
- *
+ * _islower - checks lower case
+ * c - input character for checking
  * Return: Always 0 (Success)
  */
 
