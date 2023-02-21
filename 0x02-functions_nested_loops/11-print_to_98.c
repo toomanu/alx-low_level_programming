@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * add - returns absolute value of integer
@@ -11,8 +12,8 @@ void print_to_98(int n)
 {
 	while (n < 99)
 	{
-	_putchar(n);
+	printf("%d, ", n);
 	n++;
 	}
-	_putchar('\n');
+	printf("\n");
 }
