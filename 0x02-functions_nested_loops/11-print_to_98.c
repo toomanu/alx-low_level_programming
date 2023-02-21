@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * add - returns absolute value of integer
- * @a: first value
- * @b: second value
- * Return: additonal of a and b and return c
+ * print_to_98 - returns absolute value of integer
+ * @n: number start
+ * Return: Numbers
  */
 
 void print_to_98(int n)
