@@ -2,22 +2,24 @@
 
 /**
  * print_last_digit - print last digit
- * @n: input character for checking
+ * @r: input character for checking
  * Return: last digit
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	if (n > 0)
+	if (r > 0)
 	{
-	n = (n % 10);
-	return(n);
+	r = (r % 10);
+	_putchar(r);
+	return (r);
 	}
-	else if (n < 0)
+	else if (r < 0)
 	{
-	n = n * -1;
-	n = (n % 10);
-	return(n);
+	r = r * -1;
+	r = (r % 10);
+	_putchar(r);
+	return (r);
 	}
 	else
 	_putchar('0');
