@@ -10,6 +10,7 @@
 void print_to_98(int n)
 {
 	int a;
+
 	if (n < 99)
 	{
 	for (a = n; a < 99; a++)
@@ -25,17 +26,17 @@ void print_to_98(int n)
 	printf("\n");
 	}
 	else
-	
+
 	{
 		for (a = n; a > 97; a--)
 	{
 		printf("%d", a);
- 		if (a != 98)
-		{
- 		printf(",");
- 		printf(" ");
- 		}
- 	}
- 	printf("\n");
+		if (a != 98)
+	{
+		printf(",");
+		printf(" ");
+	}
+	}
+	printf("\n");
 	}
 }
