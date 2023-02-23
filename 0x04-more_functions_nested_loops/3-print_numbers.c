@@ -2,7 +2,7 @@
 
 /**
  *print_numbers - print 0 - 9 followed by new line
- *@i: digit variables
+ *
  *Return: 0
  */
 
