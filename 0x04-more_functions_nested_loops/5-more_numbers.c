@@ -14,7 +14,7 @@ void more_numbers(void)
 
 	while (j < 10)
 	{
-		for (i = 0; i < 20; i++)
+		for (i = 0; i < 18; i++)
 		{
 			_putchar(c[i]);
 		}
