@@ -10,11 +10,11 @@ void more_numbers(void)
 {
 	int i;
 	int j = 0;
-	char c[100] = "1234567891011121314";
+	char c[100] = "01234567891011121314";
 
 	while (j < 10)
 	{
-		for (i = 0; i < 18; i++)
+		for (i = 0; i < 20; i++)
 		{
 			_putchar(c[i]);
 		}
