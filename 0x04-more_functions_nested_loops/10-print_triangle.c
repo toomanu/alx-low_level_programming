@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_diagonal - print square with #
+ *print_triangle - print square with #
  *
- *@n: number of _ to be printed
+ *@size: number of _ to be printed
  *Return: 0
  */
 
