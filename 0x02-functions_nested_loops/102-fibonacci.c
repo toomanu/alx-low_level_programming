@@ -14,7 +14,7 @@ int main(void)
 	int i;
 	int n = 50;
 
-	for (int i = 2 ; i < n ; i++)
+	for (i = 2 ; i < n ; i++)
 	{
 	if (i <= 1)
 		f3 = i;
