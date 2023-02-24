@@ -7,26 +7,36 @@
  *Return: 0
  */
 
-void print_diagonal(int n)
+void print_triangle(int size)
 
 {
 	int i;
 	int j;
 
-	for (i = 0; i < n; i++)
+
+if (size > 0)
+{
+	for (i = 0; i < size; i++)
 	{
-		for (j = 0; j < n; j++)
+		for (j = 0; j < size; j++)
 		{
-			if (j == i)
+			if (j < size - i - 1)
 			{
-				_putchar('\\');
+				_putchar(' ');
 			}
 			else
 			{
-				_putchar(' ');
+				_putchar('#');
 			}
 		}
 
 		_putchar('\n');
 	}
+}
+else
+{
+	_putchar('\n');
+}
+
+
 }
