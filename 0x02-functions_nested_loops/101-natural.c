@@ -9,8 +9,9 @@
 int main(void)
 {
 	int sum = 0;
+	int i;
 
-	for (int i = 3; i < 1025; i++)
+	for (i = 3; i < 1025; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 
