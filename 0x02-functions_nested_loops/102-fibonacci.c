@@ -6,15 +6,14 @@
  * Return: 0
  */
 
-int main(void)
+int main()
 {
 	int f1 = 0;
 	int f2 = 1;
 	int f3;
 	int i;
 	int n = 50;
-
-	printf("%d %d ", f1,f2); 
+ 
 	for (i = 2; i < n; i++)
 	{
 		f3 = f1 + f2;
