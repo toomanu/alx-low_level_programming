@@ -33,7 +33,7 @@ if (size > 0)
 		_putchar('\n');
 	}
 }
-else
+else if (size <= 0)
 {
 	_putchar('\n');
 }
