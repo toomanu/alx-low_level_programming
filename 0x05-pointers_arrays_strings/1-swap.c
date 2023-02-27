@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *void swap_int - takes a pointer returns value it points to to 98
+ *swap_int - takes a pointer returns value it points to to 98
  *@a: input character for swap
  *@b: input character for swap
- *Return: n
+ *Return: 0
  */
 
 void swap_int(int *a, int *b)
