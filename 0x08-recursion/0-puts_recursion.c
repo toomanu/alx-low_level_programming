@@ -2,7 +2,7 @@
 
 /**
  *_puts_recursion - Prints a string followed by a new line
- *@s: prints string
+ *@s: string to be printed 
  *Return: 0
  */
 
